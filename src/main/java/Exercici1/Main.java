@@ -7,6 +7,9 @@ import static java.lang.System.exit;
 public class Main {
 
     static Scanner keyboard = new Scanner(System.in);
+    static Scanner nombreInstrumentoScanner = new Scanner(System.in);
+    static Scanner precioInstrumentoScanner = new Scanner(System.in);
+
 
     public static void main(String[] args) {
 
@@ -28,47 +31,60 @@ public class Main {
 
                 case "A":
 
-                    System.out.println("Afegeix el nom de l'instrument de vent: ");
-                    String nomInstrumentVent = keyboard.nextLine();
+                    if (!instrumentVentCreat) {
+                        System.out.println("Afegeix el nom de l'instrument de vent: ");
+                        String nomInstrumentVent = nombreInstrumentoScanner.nextLine();
 
-                    System.out.println("Quin preu té?");
-                    int preuInstrumentVent = keyboard.nextInt();
+                        System.out.println("Quin preu té?");
+                        int preuInstrumentVent = precioInstrumentoScanner.nextInt();
 
-                    Instrument instrumentVent = new InstrumentVent(nomInstrumentVent, preuInstrumentVent);
+                        Instrument instrumentVent = new InstrumentVent(nomInstrumentVent, preuInstrumentVent);
 
-                    instrumentVent.tocar();
+                        instrumentVent.tocar();
 
-                    instrumentVentCreat = true;
+                        instrumentVentCreat = true;
+                    } else {
+                        System.out.println("Ja s'ha creat un instrument de vent.");
+                    }
 
                     break;
 
                 case "B":
 
-                    System.out.println("Afegeix el nom de l'instrument de percussió: ");
-                    String nomInstrumentPercussio = keyboard.nextLine();
+                    if (!instrumentPercussioCreat) {
+                        System.out.println("Afegeix el nom de l'instrument de percussió: ");
+                        String nomInstrumentPercussio = nombreInstrumentoScanner.nextLine();
 
-                    System.out.println("Quin preu té?");
-                    int preuInstrumentPercussio = keyboard.nextInt();
+                        System.out.println("Quin preu té?");
+                        int preuInstrumentPercussio = precioInstrumentoScanner.nextInt();
 
-                    Instrument instrumentPercussio = new InstrumentPercussio(nomInstrumentPercussio, preuInstrumentPercussio);
-                    instrumentPercussio.tocar();
+                        Instrument instrumentPercussio = new InstrumentPercussio(nomInstrumentPercussio, preuInstrumentPercussio);
+                        instrumentPercussio.tocar();
 
-                    instrumentPercussioCreat = true;
+                        instrumentPercussioCreat = true;
+                    } else {
+                        System.out.println("Ja s'ha creat un instrument de percussió.");
+                    }
+
 
                     break;
 
                 case "C":
+                    if (!instrumentCordaCreat) {
+                        System.out.println("Afegeix el nom de l'instrument de corda: ");
+                        String nomInstrumentCorda = nombreInstrumentoScanner.nextLine();
 
-                    System.out.println("Afegeix el nom de l'instrument de corda: ");
-                    String nomInstrumentCorda = keyboard.nextLine();
+                        System.out.println("Quin preu té?");
+                        int preuInstrumentCorda = precioInstrumentoScanner.nextInt();
 
-                    System.out.println("Quin preu té?");
-                    int preuInstrumentCorda = keyboard.nextInt();
+                        Instrument instrumentCorda = new InstrumentCorda(nomInstrumentCorda, preuInstrumentCorda);
+                        instrumentCorda.tocar();
 
-                    Instrument instrumentCorda = new InstrumentCorda(nomInstrumentCorda, preuInstrumentCorda);
-                    instrumentCorda.tocar();
+                        instrumentCordaCreat = true;
+                    } else {
+                        System.out.println("Ja s'ha creat un instrument de corda.");
+                    }
 
-                    instrumentCordaCreat = true;
 
                     break;
 
