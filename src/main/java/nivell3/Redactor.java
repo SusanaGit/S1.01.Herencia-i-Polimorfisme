@@ -9,5 +9,9 @@ public class Redactor {
 
     public Redactor(String dni, String nom) {
         this.dni = dni;
+        this.nom = nom;
     }
+
+
+
 }
