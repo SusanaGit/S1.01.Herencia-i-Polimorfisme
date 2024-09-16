@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="018322e7-d4a6-49e9-845c-802dbb22ab05" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nivell2/Rellotge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nivell2/Rellotge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,7 +68,7 @@
       <updated>1726477699519</updated>
       <workItem from="1726477700661" duration="241000" />
       <workItem from="1726477964499" duration="1426000" />
-      <workItem from="1726479419294" duration="6540000" />
+      <workItem from="1726479419294" duration="6709000" />
     </task>
     <servers />
   </component>
