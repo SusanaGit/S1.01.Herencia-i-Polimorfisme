@@ -33,4 +33,8 @@ public class Redactor {
     public void setNoticies(List<Noticia> noticies) {
         this.noticies = noticies;
     }
+
+    public void afegirNoticia(Noticia novaNoticia) {
+        this.noticies.add(novaNoticia);
+    }
 }

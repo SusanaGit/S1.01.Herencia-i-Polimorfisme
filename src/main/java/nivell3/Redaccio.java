@@ -11,6 +11,14 @@ public class Redaccio {
         this.redactors = new ArrayList<>();
     }
 
+    public List<Redactor> getRedactors() {
+        return redactors;
+    }
+
+    public void setRedactors(List<Redactor> redactors) {
+        this.redactors = redactors;
+    }
+
     public void afegirRedactor(Redactor redactor) {
         this.redactors.add(redactor);
 
@@ -19,18 +27,10 @@ public class Redaccio {
 
     public void esborrarRedactor(String dniRedactorEsborrar) {
 
-        for (int i = 0; i < redactors.size(); i++) {
-            if (redactors.get(i).getDni().equals(dniRedactorEsborrar)) {
-                redactors.remove(redactors.get(i));
-
-                System.out.println("Redactor eliminat correctament.");
-            } else {
-                System.out.println("No es troba el redactor al llistat de redactors.");
-            }
+        if (buscarRedactor(dniRedactorEsborrar) > 0) {
+            redactors.remove(buscarRedactor(dniRedactorEsborrar));
+            System.out.println("Redactor esborrat correctament.");
         }
-
-
-
     }
 
     public void imprimirLlistatRedactors() {
@@ -38,5 +38,24 @@ public class Redaccio {
         for (int i = 0; i < redactors.size(); i++) {
             System.out.println("Nom: " + redactors.get(i).getNom() + " Dni: " + redactors.get(i).getDni());
         }
+    }
+
+    public int buscarRedactor(String dniRedactor) {
+
+        int posicioRedactor = -1;
+
+        for (int i = 0; i < redactors.size(); i++) {
+            if (redactors.get(i).getDni().equals(dniRedactor)) {
+                redactors.remove(redactors.get(i));
+
+                System.out.println("S'ha trobat el redactor.");
+
+                posicioRedactor = i;
+            } else {
+                System.out.println("No es troba el redactor al llistat de redactors.");
+            }
+        }
+
+        return posicioRedactor;
     }
 }
