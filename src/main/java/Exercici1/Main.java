@@ -2,8 +2,6 @@ package Exercici1;
 
 import java.util.Scanner;
 
-import static java.lang.System.exit;
-
 public class Main {
 
     static Scanner keyboard = new Scanner(System.in);
