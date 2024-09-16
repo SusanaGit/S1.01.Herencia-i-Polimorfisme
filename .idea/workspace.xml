@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="018322e7-d4a6-49e9-845c-802dbb22ab05" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nivell3/Noticia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nivell3/Noticia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nivell3/NoticiaBasquet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nivell3/NoticiaBasquet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nivell3/NoticiaFutbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nivell3/NoticiaFutbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nivell1/Exercici1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nivell1/Exercici1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nivell3/NoticiaTenis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nivell3/NoticiaTenis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nivell3/Redactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nivell3/Redactor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,22 +38,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/shiun/Downloads/Exercici1/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/shiun/Downloads/Exercici1/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,7 +71,8 @@
       <updated>1726477699519</updated>
       <workItem from="1726477700661" duration="241000" />
       <workItem from="1726477964499" duration="1426000" />
-      <workItem from="1726479419294" duration="8315000" />
+      <workItem from="1726479419294" duration="8343000" />
+      <workItem from="1726498015222" duration="747000" />
     </task>
     <servers />
   </component>

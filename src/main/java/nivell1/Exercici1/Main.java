@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Main {
 
     static Scanner keyboard = new Scanner(System.in);
-    static Scanner nombreInstrumentoScanner = new Scanner(System.in);
-    static Scanner precioInstrumentoScanner = new Scanner(System.in);
 
 
     public static void main(String[] args) {
@@ -31,10 +29,12 @@ public class Main {
 
                     if (!instrumentVentCreat) {
                         System.out.println("Afegeix el nom de l'instrument de vent: ");
-                        String nomInstrumentVent = nombreInstrumentoScanner.nextLine();
+                        String nomInstrumentVent = keyboard.nextLine();
 
                         System.out.println("Quin preu té?");
-                        int preuInstrumentVent = precioInstrumentoScanner.nextInt();
+                        int preuInstrumentVent = keyboard.nextInt();
+
+                        keyboard.nextLine();
 
                         Instrument instrumentVent = new InstrumentVent(nomInstrumentVent, preuInstrumentVent);
 
@@ -51,10 +51,12 @@ public class Main {
 
                     if (!instrumentPercussioCreat) {
                         System.out.println("Afegeix el nom de l'instrument de percussió: ");
-                        String nomInstrumentPercussio = nombreInstrumentoScanner.nextLine();
+                        String nomInstrumentPercussio = keyboard.nextLine();
 
                         System.out.println("Quin preu té?");
-                        int preuInstrumentPercussio = precioInstrumentoScanner.nextInt();
+                        int preuInstrumentPercussio = keyboard.nextInt();
+
+                        keyboard.nextLine();
 
                         Instrument instrumentPercussio = new InstrumentPercussio(nomInstrumentPercussio, preuInstrumentPercussio);
                         instrumentPercussio.tocar();
@@ -70,10 +72,12 @@ public class Main {
                 case "C":
                     if (!instrumentCordaCreat) {
                         System.out.println("Afegeix el nom de l'instrument de corda: ");
-                        String nomInstrumentCorda = nombreInstrumentoScanner.nextLine();
+                        String nomInstrumentCorda = keyboard.nextLine();
 
                         System.out.println("Quin preu té?");
-                        int preuInstrumentCorda = precioInstrumentoScanner.nextInt();
+                        int preuInstrumentCorda = keyboard.nextInt();
+
+                        keyboard.nextLine();
 
                         Instrument instrumentCorda = new InstrumentCorda(nomInstrumentCorda, preuInstrumentCorda);
                         instrumentCorda.tocar();
