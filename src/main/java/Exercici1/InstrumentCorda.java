@@ -1,3 +1,5 @@
+package Exercici1;
+
 public class InstrumentCorda extends Instrument {
 
     private String name;
