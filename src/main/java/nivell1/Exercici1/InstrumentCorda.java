@@ -1,4 +1,4 @@
-package Exercici1;
+package nivell1.Exercici1;
 
 public class InstrumentCorda extends Instrument {
 

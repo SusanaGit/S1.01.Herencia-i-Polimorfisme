@@ -1,4 +1,4 @@
-package Exercici2;
+package nivell1.Exercici2;
 
 public class Cotxe {
 
