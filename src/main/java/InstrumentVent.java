@@ -10,6 +10,6 @@ public class InstrumentVent extends Instrument {
 
     @Override
     public void tocar() {
-        System.out.println("Està sonant un instrument de vent");
+        System.out.println("Està sonant un instrument de vent.");
     }
 }
